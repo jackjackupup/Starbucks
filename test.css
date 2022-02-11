@@ -1,0 +1,84 @@
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #333;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  height: 120px;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #f6f5f0;
+}
+
+.menu .list {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.menu .list li {
+  position: relative;
+}
+
+.menu .list li a {
+  display: block;
+  padding: 11px 16px;
+  font-size: 12px;
+  color: #656565;
+}
+
+.menu .list li::before {
+  content: "";
+  display: block;
+
+  /* 포지션 앱솔루트면 디스플레이는 자동으로 블럭 */
+
+  width: 1px;
+  height: 12px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.menu .list li:first-child::before {
+  display: none;
+}
+
+.main-menu {
+  display: flex;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.main-menu li {
+  list-style: none;
+  padding: 10px 20px 34px 20px;
+  font-size: 13px;
+}
