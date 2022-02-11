@@ -600,6 +600,8 @@ margin-right: 0;
 .rewards .btn-group {
   position: absolute;
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   bottom: 24px;
   width: 250px;
   display: flex;
