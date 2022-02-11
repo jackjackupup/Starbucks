@@ -572,6 +572,8 @@ margin-right: 0;
 }
 
 /*REWARDS*/
+
+
 .rewards {
   position: relative;
 }
@@ -592,7 +594,7 @@ margin-right: 0;
   right: 0;
 }
 .rewards .inner {
-  background-image: url("../starbucks/images/rewards.jpg");
+  background-image: url("./images/rewards.jpg");
   height: 241px;
 }
 .rewards .btn-group {
